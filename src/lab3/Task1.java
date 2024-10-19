@@ -8,7 +8,7 @@ public class Task1 {
 
         // Ввод массы пользователя с клавиатуры
         System.out.print("Введите вашу массу (в кг): ");
-        double userMass = scanner.nextDouble();
+        double userMass = scanner.nextInt();
 
         // Меню для выбора планеты
         System.out.println("Выберите планету:");
