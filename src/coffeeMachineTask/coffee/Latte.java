@@ -5,5 +5,4 @@ public class Latte extends Coffee {
     public Latte() {
         super(50, 20, 50, "Латте");
     }
-
 }
