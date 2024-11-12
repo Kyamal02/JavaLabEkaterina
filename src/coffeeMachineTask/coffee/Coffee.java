@@ -17,9 +17,38 @@ public class Coffee {
         this.coffeeName = coffeeName;
     }
 
-    public Coffee() {
-    }
     // тут если пригодиться можно определить гетеры и сеттеры
+
+
+    public int getWaterRequired() {
+        return waterRequired;
+    }
+
+    public void setWaterRequired(int waterRequired) {
+        this.waterRequired = waterRequired;
+    }
+
+    public int getBeansRequired() {
+        return beansRequired;
+    }
+
+    public void setBeansRequired(int beansRequired) {
+        this.beansRequired = beansRequired;
+    }
+
+    public int getMilkRequired() {
+        return milkRequired;
+    }
+
+    public void setMilkRequired(int milkRequired) {
+        this.milkRequired = milkRequired;
+    }
+
+    public String getCoffeeName() {
+        return coffeeName;
+    }
+
+    public void setCoffeeName(String coffeeName) {
+        this.coffeeName = coffeeName;
+    }
 }
-
-
